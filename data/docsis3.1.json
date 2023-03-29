@@ -1,0 +1,1641 @@
+{
+  "deviceId": "6C55E8542DB4",
+  "transactionId": "OD-bulk-apinxt",
+  "error": null,
+  "parameters": {
+    "ofdmaData": {
+      "values": [
+        {
+          "index": "1",
+          "parameters": {
+            "cmCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "ifSpeed": {
+              "value": "224.289856",
+              "type": "FLOAT"
+            },
+            "ofdmEndFreq": {
+              "value": "71.7",
+              "type": "FLOAT"
+            },
+            "ofdmStartFreq": {
+              "value": "42.5",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "secondaryChanMddTimeout(1)",
+              "type": "STRING"
+            },
+            "rxMerMean": {
+              "value": "37.05",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "txPwr": {
+              "value": "47.5",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "usIUCStats": {
+              "values": [
+                {
+                  "index": "5",
+                  "parameters": {
+                    "iucId": {
+                      "value": "5",
+                      "type": "INT"
+                    }
+                  }
+                },
+                {
+                  "index": "6",
+                  "parameters": {
+                    "iucId": {
+                      "value": "6",
+                      "type": "INT"
+                    }
+                  }
+                },
+                {
+                  "index": "9",
+                  "parameters": {
+                    "iucId": {
+                      "value": "9",
+                      "type": "INT"
+                    },
+                    "modulation": {
+                      "value": "qam1024(12)",
+                      "type": "STRING"
+                    }
+                  }
+                },
+                {
+                  "index": "10",
+                  "parameters": {
+                    "iucId": {
+                      "value": "10",
+                      "type": "INT"
+                    },
+                    "modulation": {
+                      "value": "qam512(11)",
+                      "type": "STRING"
+                    }
+                  }
+                },
+                {
+                  "index": "11",
+                  "parameters": {
+                    "iucId": {
+                      "value": "11",
+                      "type": "INT"
+                    },
+                    "modulation": {
+                      "value": "qam256(10)",
+                      "type": "STRING"
+                    }
+                  }
+                },
+                {
+                  "index": "12",
+                  "parameters": {
+                    "iucId": {
+                      "value": "12",
+                      "type": "INT"
+                    },
+                    "modulation": {
+                      "value": "qam64(8)",
+                      "type": "STRING"
+                    }
+                  }
+                },
+                {
+                  "index": "13",
+                  "parameters": {
+                    "iucId": {
+                      "value": "13",
+                      "type": "INT"
+                    },
+                    "modulation": {
+                      "value": "qam16(6)",
+                      "type": "STRING"
+                    }
+                  }
+                }
+              ],
+              "type": "LIST"
+            }
+          }
+        }
+      ],
+      "type": "LIST"
+    },
+    "regStatus": {
+      "value": "operational(8)",
+      "type": "STRING",
+      "severity": "NONE"
+    },
+    "ofdmData": {
+      "values": [
+        {
+          "index": "1",
+          "parameters": {
+            "cmCCER": {
+              "value": "100.0",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "cmCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "dsProfile": {
+              "values": [
+                {
+                  "index": "0",
+                  "parameters": {
+                    "profileId": {
+                      "value": "0",
+                      "type": "INT"
+                    },
+                    "status": {
+                      "value": "1",
+                      "type": "INT"
+                    }
+                  }
+                },
+                {
+                  "index": "3",
+                  "parameters": {
+                    "profileId": {
+                      "value": "3",
+                      "type": "INT"
+                    },
+                    "status": {
+                      "value": "0",
+                      "type": "INT"
+                    }
+                  }
+                },
+                {
+                  "index": "255",
+                  "parameters": {
+                    "partialChanReason": {
+                      "value": "ncpProfileFailure(20)",
+                      "type": "STRING"
+                    },
+                    "profileId": {
+                      "value": "255",
+                      "type": "INT"
+                    },
+                    "status": {
+                      "value": "0",
+                      "type": "INT"
+                    }
+                  }
+                }
+              ],
+              "type": "LIST"
+            },
+            "ifSpeed": {
+              "value": "1327.785",
+              "type": "FLOAT"
+            },
+            "ncpCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "ofdmEndFreq": {
+              "value": "995.999999",
+              "type": "FLOAT"
+            },
+            "ofdmStartFreq": {
+              "value": "852.0",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "20",
+              "type": "STRING",
+              "severity": "CRITICAL"
+            },
+            "plcCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "rxMerMean": {
+              "value": "27.23",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "rxPwr": {
+              "value": "-22.324",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            }
+          }
+        }
+      ],
+      "type": "LIST"
+    },
+    "cmV4Host": {
+      "value": "10.94.235.108",
+      "type": "STRING"
+    },
+    "cmDocsisCapability": {
+      "value": "docsis31(5)",
+      "type": "STRING"
+    },
+    "cmtsName": {
+      "value": "CMT3.MUN1-CBR8",
+      "type": "STRING"
+    },
+    "upData": {
+      "values": [
+        {
+          "index": "1",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "38.6",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "30.72",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "snr": {
+              "value": "34.7",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "txPwr": {
+              "value": "53.0",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            }
+          }
+        },
+        {
+          "index": "2",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "32.2",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "30.72",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "snr": {
+              "value": "34.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "txPwr": {
+              "value": "55.5",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            }
+          }
+        },
+        {
+          "index": "3",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "75.4",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "30.72",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "snr": {
+              "value": "35.1",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "txPwr": {
+              "value": "55.5",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            }
+          }
+        },
+        {
+          "index": "4",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "81.8",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "30.72",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "snr": {
+              "value": "34.7",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "txPwr": {
+              "value": "55.5",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            }
+          }
+        }
+      ],
+      "type": "LIST"
+    },
+    "cpeIpAddr": {
+      "value": "{\"452\":\"190.192.219.196\",\"55\":\"10.40.242.55\"}",
+      "type": "STRING"
+    },
+    "downData": {
+      "values": [
+        {
+          "index": "1",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "603.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-15.0",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "snr": {
+              "value": "36.8",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "2",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "609.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-15.2",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "35.9",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "3",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "615.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-17.0",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "35.3",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "4",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "621.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-16.3",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "35.9",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "5",
+          "parameters": {
+            "cmCCER": {
+              "value": "0.0009043636",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "627.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-15.7",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "36.4",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "6",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "633.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-16.6",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "35.7",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "7",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "639.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-15.9",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "36.2",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "8",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "645.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-16.4",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "35.8",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "9",
+          "parameters": {
+            "cmCCER": {
+              "value": "0.0072318738",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "759.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-18.1",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "30.8",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            }
+          }
+        },
+        {
+          "index": "10",
+          "parameters": {
+            "cmCCER": {
+              "value": "10.3394397526",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "cmCER": {
+              "value": "8.8418901568",
+              "type": "FLOAT",
+              "severity": "CRITICAL"
+            },
+            "frequency": {
+              "value": "765.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-17.8",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "29.2",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            }
+          }
+        },
+        {
+          "index": "11",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "771.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "missingOrBadSnrMer",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-17.6",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            }
+          }
+        },
+        {
+          "index": "12",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "777.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "missingOrBadSnrMer",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-18.8",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            }
+          }
+        },
+        {
+          "index": "13",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "783.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-18.4",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "32.8",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            }
+          }
+        },
+        {
+          "index": "14",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "789.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-18.6",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "31.9",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            }
+          }
+        },
+        {
+          "index": "15",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "795.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-19.1",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "33.4",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            }
+          }
+        },
+        {
+          "index": "16",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "801.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-19.8",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "32.7",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            }
+          }
+        },
+        {
+          "index": "17",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "807.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-19.9",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "32.7",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            }
+          }
+        },
+        {
+          "index": "18",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "813.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-18.7",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "33.5",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            }
+          }
+        },
+        {
+          "index": "19",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "819.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-19.5",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "32.8",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            }
+          }
+        },
+        {
+          "index": "20",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "825.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-18.9",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "33.3",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            }
+          }
+        },
+        {
+          "index": "21",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "831.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-18.2",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "33.7",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            }
+          }
+        },
+        {
+          "index": "22",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "837.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-18.8",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "33.2",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            }
+          }
+        },
+        {
+          "index": "23",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "843.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-18.2",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "33.6",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            }
+          }
+        },
+        {
+          "index": "24",
+          "parameters": {
+            "cmCCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "849.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-19.4",
+              "type": "FLOAT",
+              "severity": "MAJOR"
+            },
+            "snr": {
+              "value": "32.5",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            }
+          }
+        },
+        {
+          "index": "25",
+          "parameters": {
+            "cmCCER": {
+              "value": "0.0041868957",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "411.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-11.2",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "snr": {
+              "value": "38.9",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "26",
+          "parameters": {
+            "cmCCER": {
+              "value": "0.0030817926",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "417.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-11.2",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "snr": {
+              "value": "39.3",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "27",
+          "parameters": {
+            "cmCCER": {
+              "value": "0.0010877270",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "423.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-11.6",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "snr": {
+              "value": "38.8",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "28",
+          "parameters": {
+            "cmCCER": {
+              "value": "0.0029077956",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "435.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-12.3",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "snr": {
+              "value": "38.6",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "29",
+          "parameters": {
+            "cmCCER": {
+              "value": "0.0001827058",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "441.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-13.1",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "snr": {
+              "value": "38.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "30",
+          "parameters": {
+            "cmCCER": {
+              "value": "0.0011026473",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "453.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-12.6",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "snr": {
+              "value": "37.8",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "31",
+          "parameters": {
+            "cmCCER": {
+              "value": "0.0014760883",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "459.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-13.6",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "snr": {
+              "value": "37.9",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        },
+        {
+          "index": "32",
+          "parameters": {
+            "cmCCER": {
+              "value": "0.0014786884",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCER": {
+              "value": "0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "frequency": {
+              "value": "465.0",
+              "type": "FLOAT"
+            },
+            "ifSpeed": {
+              "value": "42.884296",
+              "type": "FLOAT"
+            },
+            "partialSvcReason": {
+              "value": "none(0)",
+              "type": "STRING"
+            },
+            "rxPwr": {
+              "value": "-12.2",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "snr": {
+              "value": "38.9",
+              "type": "FLOAT",
+              "severity": "NONE"
+            }
+          }
+        }
+      ],
+      "type": "LIST"
+    },
+    "cmV6Host": {
+      "value": "",
+      "type": "STRING",
+      "error": true,
+      "status": "UNDEFINED"
+    },
+    "maxTrafficRateUs": {
+      "value": "33000",
+      "type": "INT"
+    },
+    "maxTrafficRateDs": {
+      "value": "330000",
+      "type": "INT"
+    },
+    "cmSysDescr": {
+      "value": "Technicolor CGA4233TCH3 DOCSIS 3.1 2-PORT Voice Gateway <<HW_REV: 1.4.3; VENDOR: Technicolor; BOOTR: 2.7.0alpha4; SW_REV: CGA4233TCH3-19.3A47-018-PCU-RMQ; MODEL: CGA4233TCH3>>",
+      "type": "STRING"
+    },
+    "cmMacAddr": {
+      "value": "6C55E8542DB4",
+      "type": "STRING"
+    },
+    "cmUptime": {
+      "value": "100155.0",
+      "type": "FLOAT"
+    },
+    "fiberNodeId": {
+      "value": "",
+      "type": "STRING",
+      "status": "UNDEFINED",
+      "error": true
+    }
+  }
+}
