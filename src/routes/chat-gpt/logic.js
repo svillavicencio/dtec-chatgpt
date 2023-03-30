@@ -13,10 +13,10 @@ async function getModemData(serial){
     const {parameters} = responseNxt.data[0]
 
     const data = {
-        ...parameters.ofdma,
-        ...parameters.ofdm,
-        ...parameters.upData,
-        ...parameters.downData
+        upstream: parameters.upData.values,
+        downstream: parameters.downData.values,
+        ...parameters.ofdmaData,
+       ...parameters.ofdmData,
     }
 
     const result = getSplitedJson(data)
