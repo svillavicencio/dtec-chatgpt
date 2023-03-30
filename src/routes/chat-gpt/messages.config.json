@@ -1,0 +1,4 @@
+[
+  {"role": "user", "content": "En base a las especificaciones DOCSIS realiza un diagnostico de la señal"},
+  {"role": "user", "content": "A continuacion te enviare informacion de la señal y quiero que me indiques un diagnostico y una valoracion general entre 1 y 10 del dispositivo en base: potencia, snr, cer y ccer" }
+]

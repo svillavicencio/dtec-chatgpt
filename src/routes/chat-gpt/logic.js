@@ -15,8 +15,8 @@ async function getModemData(serial){
     const data = {
         upstream: parameters.upData.values,
         downstream: parameters.downData.values,
-        ...parameters.ofdmaData,
-       ...parameters.ofdmData,
+        // ...parameters.ofdmaData,
+       // ...parameters.ofdmData,
     }
 
     const result = getSplitedJson(data)
@@ -25,8 +25,15 @@ async function getModemData(serial){
         model: process.env.GPT_MODEL,
         messages: getMessages(result)
     })
+    const respuesta2 = await openai.createChatCompletion({
+        model: process.env.GPT_MODEL,
+        messages: [{role: 'user', content: 'Dame mas detalles del problema que detectaste del modem anterior que te pase'}]
+    })
 
-    return response.data.choices
+    return {
+        respuesta1: response.data.choices,
+        dataNxt: data
+    }
 }
 
 module.exports = {

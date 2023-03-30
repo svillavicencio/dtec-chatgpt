@@ -74,10 +74,10 @@ function getSplitedJson(payload){
 }
 
 function getMessages(data){
-    const messages = [
-        {role: 'user', content: 'Hola sos un ingeniero en telecomunicaciones especializado en redes HFC y normas DOCSIS 3.0 y DOCSIS 3.1.'},
-        {role: 'user', content: 'A continuacion te enviare informacion de la señal y quiero que me indiques si tiene problemas de señal, indicandome la "frecuency" y el porque de esa "frecuency"'},
-    ]
+    const {readFileSync} = require('fs')
+    const {join} = require('path')
+
+    const messages = JSON.parse(readFileSync(join(__dirname, './messages.config.json')))
 
     data.forEach((item, index) => {
         messages.push({role: 'user', content: item})
@@ -86,35 +86,8 @@ function getMessages(data){
     return messages
 }
 
-const mapValuesUpstream = item => {
-    const data = item.parameters
-    const values = {
-        channelSnr: data.chlSnr.value,
-        snr: data.snr.value,
-        cablemodemCER: data.cmCER.value,
-        cmtsCER: data.cmtsCER.value,
-        rxPower: data.rxPwr.value,
-        txPower: data.txPwr.value,
-    }
-    return {frequency: data.frequency.value, values: values}
-}
-
-const mapValuesDownstream = item => {
-    const data = item.parameters
-    const values = {
-        cablemodemCER: data.cmCER.value,
-        partialServiceActive: data.partialSvcReason.value,
-        rxMER: data.rxMer.value,
-        rxPower: data.rxPwr.value,
-        rxSNR: data.snr.value
-    }
-    return {frequency: data.frequency.value, values: values}
-}
-
 module.exports = {
     getReqNxt,
     getSplitedJson,
     getMessages,
-    mapValuesUpstream,
-    mapValuesDownstream
 }
