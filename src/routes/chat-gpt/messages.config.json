@@ -1,4 +1,3 @@
 [
-  {"role": "user", "content": "En base a las especificaciones DOCSIS realiza un diagnostico de la señal"},
-  {"role": "user", "content": "A continuacion te enviare informacion de la señal y quiero que me indiques un diagnostico y una valoracion general entre 1 y 10 del dispositivo en base: potencia, snr, cer y ccer" }
+  {"role": "user", "content": "Analiza el siguiente set de datos que te paso a continuación y dame tu diagnostico del dispositivo cablemodem. Tene en cuenta para tu diagnostico los siguientes parametros de cada canal: 'frequency'(en todos los canales), 'partialSvcReason'(en todos los canales), 'rxMer'(analizar solo en canales 'downstream', debe ser mayor a 34), 'rxPwr'(analizar solo en en canales 'downstream', debe estar entre -10 y 10 para estar ok), 'type'(en todos los canales), 'severity'(en todos los canales), 'snr'(en todos los canales, debe ser mayor a 34 para estar ok) , 'cmCER'( IMPORTANTE! en todos los canales, debe ser de 0 a 0.1 para estar ok), 'txPwr'(solo en canales 'upstream', debe estar entre 40 y 53 para estar ok). Ademas, dame un scoring general del 1 al 5 de como performa el servicio."}
 ]
