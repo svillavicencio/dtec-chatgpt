@@ -1,0 +1,2079 @@
+{
+  "deviceId": "D8A756F18688",
+  "transactionId": "OD-D8A756F18688-apisom",
+  "error": null,
+  "parameters": {
+    "regStatus": {
+      "value": "operational(8)",
+      "type": "STRING",
+      "severity": "NONE"
+    },
+    "downData": {
+      "values": [
+        {
+          "index": "1",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "3", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3559775931", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3559775931", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3560087655", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311724", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314920", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "603.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "603000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream0",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "33",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4323651986957", "type": "LONG" },
+            "outOctets64": { "value": "4323651986957", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085590",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4323653831775", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4323653831775", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "39.5", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "3.0", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "39.5", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.185600248815102",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "2",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "48", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854687", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854687", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166412", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311725", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314921", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "609.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "609000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream1",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "31",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4228088040825", "type": "LONG" },
+            "outOctets64": { "value": "4228088040825", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085590",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4228089883066", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4228089883066", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "39.5", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "3.0", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "39.5", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.175562786127077",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "3",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "49", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854700", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854700", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166425", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311725", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314922", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "615.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "615000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream2",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "33",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4243525453961", "type": "LONG" },
+            "outOctets64": { "value": "4243525453961", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085590",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4243527300849", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4243527300849", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "39.5", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "3.0", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "39.5", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.1936629371209655",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "4",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "50", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854742", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854742", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166467", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311725", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314923", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "621.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "621000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream3",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "33",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4233739700461", "type": "LONG" },
+            "outOctets64": { "value": "4233739700461", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085590",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4233741546335", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4233741546335", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "39.5", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "3.0", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "39.5", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.189713388356644",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "5",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "51", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854770", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854770", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166495", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311725", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314924", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "627.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "627000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream4",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "29",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4234347682610", "type": "LONG" },
+            "outOctets64": { "value": "4234347682610", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085590",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4234349528085", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4234349528085", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "39.4", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "3.0", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "39.4", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.18815927597305",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "6",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "52", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854795", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854794", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166520", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311726", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314925", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "633.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "633000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream5",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "36",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4234303183300", "type": "LONG" },
+            "outOctets64": { "value": "4234303183300", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085590",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4234305028754", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4234305028754", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "39.4", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "2.9", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "39.4", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.1880774805844405",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "7",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "53", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854828", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854827", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166553", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311726", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314926", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "639.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "639000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream6",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "30",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4233068039915", "type": "LONG" },
+            "outOctets64": { "value": "4233068039915", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085590",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4233069886278", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4233069886278", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "38.4", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "2.9", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "38.4", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.19161805240571",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "8",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "54", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854854", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854854", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166580", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311726", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314927", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "645.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "645000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream7",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "32",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4233729661359", "type": "LONG" },
+            "outOctets64": { "value": "4233729661359", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085590",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4233731507567", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4233731507567", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "39.2", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "2.9", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "39.2", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.191014324537397",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "9",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "2", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "2", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "55", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854875", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854873", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166598", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311725", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314928", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "759.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "759000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream8",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "34",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4143191825204", "type": "LONG" },
+            "outOctets64": { "value": "4143191825204", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4143192912220", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4143192912220", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.2", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "0.7", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.2", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "4.231556725486553",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "10",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "5", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "5", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "56", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854899", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854894", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166620", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311726", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314929", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "765.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "765000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream9",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "33",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3692926986179", "type": "LONG" },
+            "outOctets64": { "value": "3692926986179", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3692928074902", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3692928074902", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.4", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "0.9", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.4", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "4.238201767813811",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "11",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "2", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "2", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "57", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854928", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854926", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166652", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311726", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314930", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "771.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "771000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream10",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "34",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3691280279455", "type": "LONG" },
+            "outOctets64": { "value": "3691280279455", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3691281367045", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3691281367045", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.3", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "0.7", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.3", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "4.233791203691501",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "12",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "58", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854867", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854866", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166592", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311726", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314931", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "777.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "777000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream11",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "30",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3687873934332", "type": "LONG" },
+            "outOctets64": { "value": "3687873934332", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3687875020874", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3687875020874", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.2", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "0.5", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.2", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "4.229711529198845",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "13",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "3", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "3", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "59", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854804", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854801", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166526", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311725", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314932", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "783.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "783000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream12",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "34",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3685210258076", "type": "LONG" },
+            "outOctets64": { "value": "3685210258076", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3685211345187", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3685211345187", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.1", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "0.3", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.1", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "4.23192654330793",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "14",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "6", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "6", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "60", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854832", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854826", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166552", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311726", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314933", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "789.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "789000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream13",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "34",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3683963467879", "type": "LONG" },
+            "outOctets64": { "value": "3683963467879", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3683964556205", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3683964556205", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.1", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "0.3", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.2", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "4.236656318602375",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "15",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "61", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854683", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854682", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166407", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311725", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314934", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "795.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "795000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream14",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "32",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3683042231946", "type": "LONG" },
+            "outOctets64": { "value": "3683042231946", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3683043317823", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3683043317823", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.2", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "0.1", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.2", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "4.22712280444921",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "16",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "8", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "8", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "62", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3558854617", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3558854609", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3559166334", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "311725", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314935", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "801.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "801000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream15",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "34",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3682822904683", "type": "LONG" },
+            "outOctets64": { "value": "3682822904683", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3682823992410", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3682823992410", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "34.8", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "0.2", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "34.8", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "4.234324519918117",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "17",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "3", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "3", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "63", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3557038038", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3557038035", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3557347986", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "309951", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314936", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "807.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "807000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream16",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "32",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4069160272962", "type": "LONG" },
+            "outOctets64": { "value": "4069160272962", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4069162118594", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4069162118594", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.5", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "-0.4", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.5", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.18471163476269",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "18",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "9", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "9", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "64", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3557079095", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3557079086", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3557388947", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "309861", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314937", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "813.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "813000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream17",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "31",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4071938361116", "type": "LONG" },
+            "outOctets64": { "value": "4071938361116", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4071940205808", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4071940205808", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.1", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "-0.3", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.1", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.181052384740649",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "19",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "8", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "8", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "65", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3557088125", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3557088117", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3557397977", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "309860", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314938", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "819.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "819000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream18",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "32",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4069008162484", "type": "LONG" },
+            "outOctets64": { "value": "4069008162484", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4069010008474", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4069010008474", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.2", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "-0.3", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.2", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.186105264026402",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "20",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "6", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "6", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "66", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3557124808", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3557124802", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3557434663", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "309861", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314939", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "825.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "825000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream19",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "31",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4068999434118", "type": "LONG" },
+            "outOctets64": { "value": "4068999434118", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4069001281452", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4069001281452", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.5", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "-0.3", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.5", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.191337212994084",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "21",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "18716", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "18716", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "67", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3557140376", "type": "LONG" },
+            "cmUncorrectables": { "value": "41219", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "41219", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3557080441", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3557390302", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "309861", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314940", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "831.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "831000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream20",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "34",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "5005312897723", "type": "LONG" },
+            "outOctets64": { "value": "5005312897723", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "5005314745463", "type": "LONG" },
+            "outOctetsDelay64": { "value": "5005314745463", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "37.1", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "-0.4", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "37.1", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.19291769757807",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "22",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "7", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "7", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "68", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3557188367", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3557188360", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3557496857", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "308497", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314941", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "837.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "837000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream21",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "34",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4068073115694", "type": "LONG" },
+            "outOctets64": { "value": "4068073115694", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4068074961493", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4068074961493", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "36.5", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "-0.3", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "36.5", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.185361735564477",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "23",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "15", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "15", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "69", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3557250849", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3557250834", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3557559332", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "308498", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314942", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "843.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "843000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream22",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "34",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4068360362108", "type": "LONG" },
+            "outOctets64": { "value": "4068360362108", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4068362208788", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4068362208788", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "36.6", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "-0.2", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "36.6", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.188791309255346",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "24",
+          "parameters": {
+            "cmCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmCorrecteds": { "value": "10", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "10", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "70", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3557263758", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3557263748", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3557572245", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "308497", "type": "LONG" },
+            "cmtsIfIndex": { "value": "314943", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "849.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "849000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream23",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "microReflections": {
+              "value": "33",
+              "type": "INT",
+              "severity": "NONE"
+            },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "4068362056501", "type": "LONG" },
+            "outOctets64": { "value": "4068362056501", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "4068363901076", "type": "LONG" },
+            "outOctetsDelay64": { "value": "4068363901076", "type": "UINT64" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "rxMer": { "value": "36.6", "type": "FLOAT", "severity": "NONE" },
+            "rxPwr": { "value": "-0.4", "type": "FLOAT", "severity": "NONE" },
+            "snr": { "value": "36.6", "type": "FLOAT", "severity": "NONE" },
+            "utilization": {
+              "value": "7.180596924897481",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "25",
+          "parameters": {
+            "cmtsIfIndex": { "value": "314944", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "855.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "855000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream24",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3899410799839", "type": "LONG" },
+            "outOctets64": { "value": "3899410799839", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3899412674221", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3899412674221", "type": "UINT64" },
+            "utilization": {
+              "value": "7.296630185968686",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "26",
+          "parameters": {
+            "cmtsIfIndex": { "value": "314945", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "861.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "861000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream25",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3500174852292", "type": "LONG" },
+            "outOctets64": { "value": "3500174852292", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3500176727149", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3500176727149", "type": "UINT64" },
+            "utilization": {
+              "value": "7.298479275075568",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "27",
+          "parameters": {
+            "cmtsIfIndex": { "value": "314946", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "867.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "867000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream26",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3499898691401", "type": "LONG" },
+            "outOctets64": { "value": "3499898691401", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3499900566684", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3499900566684", "type": "UINT64" },
+            "utilization": {
+              "value": "7.300137616043004",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "28",
+          "parameters": {
+            "cmtsIfIndex": { "value": "314947", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "873.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "873000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream27",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3499976525671", "type": "LONG" },
+            "outOctets64": { "value": "3499976525671", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085607",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3499978400343", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3499978400343", "type": "UINT64" },
+            "utilization": {
+              "value": "7.297759103528677",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "29",
+          "parameters": {
+            "cmtsIfIndex": { "value": "314948", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "879.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "879000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream28",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3498466495314", "type": "LONG" },
+            "outOctets64": { "value": "3498466495314", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085627",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3498468371876", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3498468371876", "type": "UINT64" },
+            "utilization": {
+              "value": "7.3051165317644795",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "30",
+          "parameters": {
+            "cmtsIfIndex": { "value": "314949", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "885.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "885000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream29",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3498499389876", "type": "LONG" },
+            "outOctets64": { "value": "3498499389876", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085627",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3498501264693", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3498501264693", "type": "UINT64" },
+            "utilization": {
+              "value": "7.298323562308672",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "31",
+          "parameters": {
+            "cmtsIfIndex": { "value": "314950", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "891.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "891000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream30",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "3498510807572", "type": "LONG" },
+            "outOctets64": { "value": "3498510807572", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085627",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "3498512683996", "type": "LONG" },
+            "outOctetsDelay64": { "value": "3498512683996", "type": "UINT64" },
+            "utilization": {
+              "value": "7.304579322718691",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        },
+        {
+          "index": "32",
+          "parameters": {
+            "cmtsIfIndex": { "value": "314951", "type": "INT" },
+            "configTxPwr": { "value": "34.0", "type": "FLOAT" },
+            "frequency": { "value": "897.0", "type": "FLOAT" },
+            "frequencyHz": { "value": "897000000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": {
+              "value": "Integrated-Cable8/0/7-downstream31",
+              "type": "STRING"
+            },
+            "ifSpeed": { "value": "42.884296", "type": "FLOAT" },
+            "ifType": { "value": "other(1)", "type": "STRING" },
+            "modulation": { "value": "qam256(4)", "type": "STRING" },
+            "modulationCode": { "value": "4", "type": "STRING" },
+            "outOctets": { "value": "5135394102440", "type": "LONG" },
+            "outOctets64": { "value": "5135394102440", "type": "UINT64" },
+            "outOctets64Timestamp": {
+              "value": "1692134085627",
+              "type": "LONG"
+            },
+            "outOctetsDelay": { "value": "5135396714364", "type": "LONG" },
+            "outOctetsDelay64": { "value": "5135396714364", "type": "UINT64" },
+            "utilization": {
+              "value": "10.167747824006033",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.0", "type": "FLOAT" },
+            "widthHz": { "value": "6000000", "type": "INT" }
+          }
+        }
+      ],
+      "type": "LIST"
+    },
+    "upData": {
+      "values": [
+        {
+          "index": "1",
+          "parameters": {
+            "attenuation": {
+              "value": "42.3",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "channelType": { "value": "atdma(2)", "type": "STRING" },
+            "channelTypeCode": { "value": "2", "type": "INT" },
+            "chlCorrecteds": { "value": "730557", "type": "LONG" },
+            "chlCorrectedsDelay": { "value": "730557", "type": "LONG" },
+            "chlCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "chlRxMer": { "value": "39.4", "type": "FLOAT" },
+            "chlSnr": { "value": "39.4", "type": "FLOAT", "severity": "NONE" },
+            "chlTotalContentionMslots": {
+              "value": "991523505333",
+              "type": "UINT64"
+            },
+            "chlTotalMslots": { "value": "1055110782238", "type": "UINT64" },
+            "chlUcastGrantedMslots": {
+              "value": "61703203602",
+              "type": "UINT64"
+            },
+            "chlUncorrectables": { "value": "52150", "type": "LONG" },
+            "chlUncorrectablesDelay": { "value": "52150", "type": "LONG" },
+            "chlUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "chlUnerroreds": { "value": "2596997935", "type": "LONG" },
+            "chlUnerroredsDelay": { "value": "2597074079", "type": "LONG" },
+            "chlUnerroredsDelta": { "value": "76144", "type": "LONG" },
+            "chlUsedContentionMslots": {
+              "value": "3144436194",
+              "type": "UINT64"
+            },
+            "cmCCER": { "value": "0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": { "value": "0", "type": "FLOAT", "severity": "NONE" },
+            "cmCorrecteds": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "80", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3299724", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3299723", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3299723", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "0", "type": "LONG" },
+            "cmtsCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmtsCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmtsCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmtsIfIndex": { "value": "499896", "type": "INT" },
+            "configRxPwr": {
+              "value": "7.0",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "frequency": { "value": "38.6", "type": "FLOAT" },
+            "frequencyHz": { "value": "38600000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": { "value": "Cable8/0/7-upstream0", "type": "STRING" },
+            "ifSpeed": { "value": "30.72", "type": "FLOAT" },
+            "ifType": { "value": "docsCableUpstream(129)", "type": "STRING" },
+            "inOctets64": { "value": "2330214191350", "type": "UINT64" },
+            "inOctets64Timestamp": { "value": "1692134085590", "type": "LONG" },
+            "inOctetsDelay64": { "value": "2330221610125", "type": "UINT64" },
+            "microReflections": { "value": "0", "type": "INT" },
+            "modProfile": { "value": "225", "type": "LONG" },
+            "modulation": { "value": "qam64(6)", "type": "STRING" },
+            "modulationCode": { "value": "6", "type": "STRING" },
+            "octets": { "value": "2330214191350", "type": "LONG" },
+            "octetsDelay": { "value": "2330221610125", "type": "LONG" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "preEQ": {
+              "value": "08:01:18:00:FF:D0:FF:D0:FF:E0:00:20:FF:F0:FF:A0:FF:F0:00:90:FF:B0:FF:10:00:A0:02:10:FD:60:F9:20:7F:80:00:00:FE:80:F8:80:00:20:02:10:00:60:FE:00:FF:F0:00:50:FF:B0:FF:30:00:40:FF:B0:00:00:00:20:00:20:00:00:FF:C0:FF:E0:00:10:00:60:00:50:FF:40:00:00:00:10:FF:E0:00:40:00:10:00:20:00:20:00:30:00:30:00:40",
+              "type": "STRING"
+            },
+            "rxPwr": { "value": "7.5", "type": "FLOAT", "severity": "MINOR" },
+            "snr": { "value": "40.0", "type": "FLOAT", "severity": "NONE" },
+            "timingOffset": { "value": "25.09765625", "type": "FLOAT" },
+            "txPwr": { "value": "49.8", "type": "FLOAT", "severity": "NONE" },
+            "type": { "value": "2", "type": "STRING" },
+            "utilization": {
+              "value": "42.094106670086894",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.4", "type": "FLOAT" },
+            "widthHz": { "value": "6400000", "type": "INT" },
+            "MTE": { "value": "1065369600.000", "type": "FLOAT" },
+            "PREMTE": { "value": "3954688.000", "type": "FLOAT" },
+            "POSTMTE": { "value": "4528128.000", "type": "FLOAT" },
+            "TTE": { "value": "1073852416.000", "type": "FLOAT" },
+            "MTC": { "value": "0.034", "type": "FLOAT" },
+            "NMTER": {
+              "value": "-21.024",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "PREMTTER": {
+              "value": "-24.338",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "POSTMTTER": {
+              "value": "-23.750",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "PPESR": { "value": "-0.588", "type": "FLOAT" },
+            "PPTSR": { "value": "-0.335", "type": "FLOAT" }
+          }
+        },
+        {
+          "index": "2",
+          "parameters": {
+            "attenuation": {
+              "value": "42.3",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "channelType": { "value": "atdma(2)", "type": "STRING" },
+            "channelTypeCode": { "value": "2", "type": "INT" },
+            "chlCorrecteds": { "value": "741042", "type": "LONG" },
+            "chlCorrectedsDelay": { "value": "741042", "type": "LONG" },
+            "chlCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "chlRxMer": { "value": "39.1", "type": "FLOAT" },
+            "chlSnr": { "value": "39.1", "type": "FLOAT", "severity": "NONE" },
+            "chlTotalContentionMslots": {
+              "value": "993905844265",
+              "type": "UINT64"
+            },
+            "chlTotalMslots": { "value": "1055110799209", "type": "UINT64" },
+            "chlUcastGrantedMslots": {
+              "value": "59322788478",
+              "type": "UINT64"
+            },
+            "chlUncorrectables": { "value": "30290", "type": "LONG" },
+            "chlUncorrectablesDelay": { "value": "30290", "type": "LONG" },
+            "chlUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "chlUnerroreds": { "value": "1933404524", "type": "LONG" },
+            "chlUnerroredsDelay": { "value": "1933478888", "type": "LONG" },
+            "chlUnerroredsDelta": { "value": "74364", "type": "LONG" },
+            "chlUsedContentionMslots": {
+              "value": "3056515746",
+              "type": "UINT64"
+            },
+            "cmCCER": { "value": "0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": { "value": "0", "type": "FLOAT", "severity": "NONE" },
+            "cmCorrecteds": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "0", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "81", "type": "LONG" },
+            "cmTotalCodewords": { "value": "3004858", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "3004858", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "3004858", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "0", "type": "LONG" },
+            "cmtsCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmtsCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmtsCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmtsIfIndex": { "value": "499897", "type": "INT" },
+            "configRxPwr": {
+              "value": "7.0",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "frequency": { "value": "32.2", "type": "FLOAT" },
+            "frequencyHz": { "value": "32200000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": { "value": "Cable8/0/7-upstream1", "type": "STRING" },
+            "ifSpeed": { "value": "30.72", "type": "FLOAT" },
+            "ifType": { "value": "docsCableUpstream(129)", "type": "STRING" },
+            "inOctets64": { "value": "2240871405195", "type": "UINT64" },
+            "inOctets64Timestamp": { "value": "1692134085590", "type": "LONG" },
+            "inOctetsDelay64": { "value": "2240878894638", "type": "UINT64" },
+            "microReflections": { "value": "0", "type": "INT" },
+            "modProfile": { "value": "225", "type": "LONG" },
+            "modulation": { "value": "qam64(6)", "type": "STRING" },
+            "modulationCode": { "value": "6", "type": "STRING" },
+            "octets": { "value": "2240871405195", "type": "LONG" },
+            "octetsDelay": { "value": "2240878894638", "type": "LONG" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "preEQ": {
+              "value": "08:01:18:00:00:00:FF:F0:FF:F0:00:10:00:00:FF:A0:FF:D0:00:60:FF:C0:FF:70:00:10:01:00:FF:60:FD:30:7F:F0:00:00:00:00:00:40:00:90:FF:70:00:50:00:00:00:50:00:60:FF:80:FE:A0:00:10:FF:10:FF:E0:00:50:00:10:FF:E0:FF:F0:00:00:00:10:00:10:FF:D0:00:90:FF:F0:FF:F0:FF:F0:00:30:00:20:FF:F0:00:20:00:30:00:70:00:40",
+              "type": "STRING"
+            },
+            "rxPwr": { "value": "7.5", "type": "FLOAT", "severity": "MINOR" },
+            "snr": { "value": "40.0", "type": "FLOAT", "severity": "NONE" },
+            "timingOffset": { "value": "25.0", "type": "FLOAT" },
+            "txPwr": { "value": "49.8", "type": "FLOAT", "severity": "NONE" },
+            "type": { "value": "2", "type": "STRING" },
+            "utilization": {
+              "value": "42.49507668604798",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.4", "type": "FLOAT" },
+            "widthHz": { "value": "6400000", "type": "INT" },
+            "MTE": { "value": "1072693504.000", "type": "FLOAT" },
+            "PREMTE": { "value": "656128.000", "type": "FLOAT" },
+            "POSTMTE": { "value": "322560.000", "type": "FLOAT" },
+            "TTE": { "value": "1073672192.000", "type": "FLOAT" },
+            "MTC": { "value": "0.004", "type": "FLOAT" },
+            "NMTER": {
+              "value": "-30.402",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "PREMTTER": {
+              "value": "-32.139",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "POSTMTTER": {
+              "value": "-35.223",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "PPESR": { "value": "3.084", "type": "FLOAT" },
+            "PPTSR": { "value": "21.232", "type": "FLOAT" }
+          }
+        },
+        {
+          "index": "3",
+          "parameters": {
+            "attenuation": {
+              "value": "42.3",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "channelType": { "value": "atdma(2)", "type": "STRING" },
+            "channelTypeCode": { "value": "2", "type": "INT" },
+            "chlCorrecteds": { "value": "1126018", "type": "LONG" },
+            "chlCorrectedsDelay": { "value": "1126018", "type": "LONG" },
+            "chlCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "chlRxMer": { "value": "38.9", "type": "FLOAT" },
+            "chlSnr": { "value": "38.9", "type": "FLOAT", "severity": "NONE" },
+            "chlTotalContentionMslots": {
+              "value": "997479184471",
+              "type": "UINT64"
+            },
+            "chlTotalMslots": { "value": "1055110807009", "type": "UINT64" },
+            "chlUcastGrantedMslots": {
+              "value": "55750179367",
+              "type": "UINT64"
+            },
+            "chlUncorrectables": { "value": "93567", "type": "LONG" },
+            "chlUncorrectablesDelay": { "value": "93567", "type": "LONG" },
+            "chlUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "chlUnerroreds": { "value": "895401671", "type": "LONG" },
+            "chlUnerroredsDelay": { "value": "895479593", "type": "LONG" },
+            "chlUnerroredsDelta": { "value": "77922", "type": "LONG" },
+            "chlUsedContentionMslots": {
+              "value": "3019559291",
+              "type": "UINT64"
+            },
+            "cmCCER": { "value": "0", "type": "FLOAT", "severity": "NONE" },
+            "cmCER": { "value": "0", "type": "FLOAT", "severity": "NONE" },
+            "cmCERCCER": { "value": "0", "type": "FLOAT", "severity": "NONE" },
+            "cmCorrecteds": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelay": { "value": "1", "type": "LONG" },
+            "cmCorrectedsDelta": { "value": "0", "type": "LONG" },
+            "cmIfIndex": { "value": "4", "type": "LONG" },
+            "cmTotalCodewords": { "value": "2688831", "type": "LONG" },
+            "cmUncorrectables": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelay": { "value": "0", "type": "LONG" },
+            "cmUncorrectablesDelta": { "value": "0", "type": "LONG" },
+            "cmUnerroreds": { "value": "2688830", "type": "LONG" },
+            "cmUnerroredsDelay": { "value": "2688830", "type": "LONG" },
+            "cmUnerroredsDelta": { "value": "0", "type": "LONG" },
+            "cmtsCCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmtsCER": { "value": "0.0", "type": "FLOAT", "severity": "NONE" },
+            "cmtsCERCCER": {
+              "value": "0.0",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "cmtsIfIndex": { "value": "499898", "type": "INT" },
+            "configRxPwr": {
+              "value": "7.0",
+              "type": "FLOAT",
+              "severity": "MINOR"
+            },
+            "frequency": { "value": "25.8", "type": "FLOAT" },
+            "frequencyHz": { "value": "25800000", "type": "INT" },
+            "ifAlias": { "value": "", "type": "STRING" },
+            "ifDescr": { "value": "Cable8/0/7-upstream2", "type": "STRING" },
+            "ifSpeed": { "value": "30.72", "type": "FLOAT" },
+            "ifType": { "value": "docsCableUpstream(129)", "type": "STRING" },
+            "inOctets64": { "value": "2117230379964", "type": "UINT64" },
+            "inOctets64Timestamp": { "value": "1692134085590", "type": "LONG" },
+            "inOctetsDelay64": { "value": "2117237668525", "type": "UINT64" },
+            "microReflections": { "value": "0", "type": "INT" },
+            "modProfile": { "value": "225", "type": "LONG" },
+            "modulation": { "value": "qam64(6)", "type": "STRING" },
+            "modulationCode": { "value": "6", "type": "STRING" },
+            "octets": { "value": "2117230379964", "type": "LONG" },
+            "octetsDelay": { "value": "2117237668525", "type": "LONG" },
+            "partialSvcReason": { "value": "none(0)", "type": "STRING" },
+            "preEQ": {
+              "value": "08:01:18:00:FF:E0:00:10:FF:E0:00:30:00:10:FF:D0:FF:F0:00:20:00:00:FF:A0:FF:E0:00:50:00:40:FF:40:7F:F0:00:00:01:E0:FE:C0:00:60:00:90:FF:A0:FF:70:FF:40:FF:A0:00:A0:FF:70:00:70:FF:70:FF:E0:00:00:00:50:00:10:FF:D0:00:40:00:50:00:60:00:90:FF:90:FF:F0:00:10:FF:E0:00:10:FF:C0:00:10:00:00:FF:A0:00:00:00:20",
+              "type": "STRING"
+            },
+            "rxPwr": { "value": "7.5", "type": "FLOAT", "severity": "MINOR" },
+            "snr": { "value": "39.1", "type": "FLOAT", "severity": "NONE" },
+            "timingOffset": { "value": "224.51171875", "type": "FLOAT" },
+            "txPwr": { "value": "49.8", "type": "FLOAT", "severity": "NONE" },
+            "type": { "value": "2", "type": "STRING" },
+            "utilization": {
+              "value": "41.3552728321637",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "width": { "value": "6.4", "type": "FLOAT" },
+            "widthHz": { "value": "6400000", "type": "INT" },
+            "MTE": { "value": "1072693504.000", "type": "FLOAT" },
+            "PREMTE": { "value": "66048.000", "type": "FLOAT" },
+            "POSTMTE": { "value": "597760.000", "type": "FLOAT" },
+            "TTE": { "value": "1073357312.000", "type": "FLOAT" },
+            "MTC": { "value": "0.003", "type": "FLOAT" },
+            "NMTER": {
+              "value": "-32.087",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "PREMTTER": {
+              "value": "-42.109",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "POSTMTTER": {
+              "value": "-32.542",
+              "type": "FLOAT",
+              "severity": "NONE"
+            },
+            "PPESR": { "value": "-9.567", "type": "FLOAT" },
+            "PPTSR": { "value": "-9.098", "type": "FLOAT" }
+          }
+        }
+      ],
+      "type": "LIST"
+    },
+    "cmMacAddr": { "value": "D8A756F18688", "type": "STRING" },
+    "lastRegTime": { "value": "361555.59", "type": "FLOAT" }
+  }
+}
